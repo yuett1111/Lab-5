@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hong Kong Journey</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,25 +13,54 @@
         <p>From the excitement of arriving at the park to the  fireworks at night, experience my day through sounds and visuals. </p>
 
     <div class="scene">
-        <img src="images/home.jpg">
-        <p> The journey begins as I leave home and make my way to Hong Kong Disneyland!</p>
+        <img id="scene" src="images/home.jpg" alt="Leaving Home">
+        <p id="sceneText"> 
+            The journey begins with the familiar sounds of my neighbourhoods and passing traffic. At the crossing, the traffic signal beeps, waiting patiently to make your way to the subway.
+        </p>
     </div>
 
-    <div class="controls">
-            <button id="play">Play</button>
-            <button id="pause">Pause</button>
-            <button id="restart">Restart</button>
+    <audio id="player" controls>
+        <source src="audio/track.mp3" type="audio/mp3">
+        This browser does not support audio.
+    </audio>  
+    
+    <div class="audioControl">
+        <p id="message">The player is not playing.</p>
+
+        <div class="controls">
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="restart">Restart</button>
+        </div>
     </div>
+
+     <script src="script.js"></script>
     
 </body>
 </html>
 
 <!-- image citation
- https://www.pexels.com/photo/dynamic-urban-street-scene-in-hong-kong-31310128/
- https://www.dreamstime.com/editorial-photo-mtr-train-hong-kong-october-inside-mass-transit-railway-rapid-transit-railway-system-hong-kong-one-image95368306
- https://bettyandlingshing.blogspot.com/2012/06/hong-kong-disneyland.html
+ https://zh-yue.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E9%81%93%E8%B7%AF
+ https://www.checkerboardhill.com/2014/11/seating-onboard-mtr-trains/
+ https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/456807/%E6%B8%AF%E9%90%B510%E6%97%A5%E8%B5%B7%E5%81%9C%E9%81%8B%E8%BF%AA%E5%A3%AB%E5%B0%BC%E7%B7%9A-%E6%9D%B1%E6%B6%8C%E5%B1%AF%E9%A6%AC%E7%B7%9A%E5%89%8A%E7%8F%AD%E6%AC%A1-%E5%B8%82%E5%8D%80%E9%A0%90%E8%BE%A6%E7%99%BB%E6%A9%9F%E6%9A%AB%E5%81%9C#google_vignette
  https://www.hongkongdisneyland.com/zh-hk/attractions/rc-racer/
- https://worldtraveleg.com/hongkongdisneyland/
+ https://www.hongkongdisneyland.com/zh-hk/attractions/its-a-small-world/
  https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/696087/%E8%BF%AA%E5%A3%AB%E5%B0%BC%E6%A8%82%E5%9C%92%E6%96%B0%E6%99%9A%E9%96%93%E5%8C%AF%E6%BC%94%E6%98%8E%E5%B9%B4%E4%B8%8A%E6%BC%94-%E5%9F%8E%E5%A0%A1%E7%85%99%E8%8A%B1%E5%8A%A0%E5%99%B4%E6%B3%89-%E9%80%A2%E5%91%A8%E4%BA%94%E8%87%B3%E6%97%A5%E9%99%90%E5%AE%9A#google_vignette
- https://www.disneyphotoblography.com/2016/01/the-hong-kong-disneyland-mtr.html -->
+ https://www.disneyphotoblography.com/2016/01/the-hong-kong-disneyland-mtr.html 
+ https://www.hongkongdisneyland.com/destinations/theme-park/
+ https://www.hongkongdisneyland.com/zh-hk/entertainment/friendtastic-parade/
+ https://www.elle.com/tw/life/travel/g32902118/hongkong-disneyland-2020/-->
+
+<!-- audio citation
+https://www.youtube.com/watch?v=sUFbdeUPjnA
+https://www.youtube.com/watch?v=VUsZeN_hZPs
+https://www.youtube.com/watch?v=M0Rdik8tPi4
+https://www.youtube.com/watch?v=j8jb4CCFdXk
+https://www.youtube.com/watch?v=evN64mQV2Uc
+https://www.youtube.com/watch?v=7_lHGwXu_Bk
+https://www.youtube.com/watch?v=iKp-JWA09Kw
+https://www.youtube.com/watch?v=le3lmpEa2Q0&t=86s
+https://www.youtube.com/watch?v=lDoNB8_oqcw
+https://www.youtube.com/watch?v=yR1pEk16Bjg
+https://www.youtube.com/watch?v=m49aJfjSCcI&t=103s -->
 
